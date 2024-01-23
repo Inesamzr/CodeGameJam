@@ -122,6 +122,11 @@ namespace StarterAssets
             }
         }
 
+        [SerializeField]
+        private GameObject canvas;
+
+        private PauseController pauseController;
+
 
         private void Awake()
         {
@@ -129,6 +134,10 @@ namespace StarterAssets
             if (_mainCamera == null)
             {
                 _mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
+            }
+            if(canvas != null)
+            {
+                pauseController = canvas.GetComponent<PauseController>();
             }
         }
 
@@ -163,6 +172,10 @@ namespace StarterAssets
 
         private void LateUpdate()
         {
+            if (pauseController.isPaused)
+            {
+                return;
+            }
             CameraRotation();
         }
 
