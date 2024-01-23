@@ -71,6 +71,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd35ce9ec73c024993eb772e4c3af55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 20
   minRadius: 20
   maxRadius: 50
   totalFOV: 90
@@ -304,6 +305,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8537614449320566647, guid: 03cd80833e0931c4a8b8e828a2ea2fd4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: -6060869801834540946, guid: 03cd80833e0931c4a8b8e828a2ea2fd4, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -312,6 +317,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e6f050cdce2fcdc4fa9cd820827f945a, type: 2}
+    - target: {fileID: -3215555783603854218, guid: 03cd80833e0931c4a8b8e828a2ea2fd4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: -2720221069562527839, guid: 03cd80833e0931c4a8b8e828a2ea2fd4, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -320,6 +329,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 94e22d7c968384047be26c0aa608193e, type: 2}
+    - target: {fileID: -2254359240958618967, guid: 03cd80833e0931c4a8b8e828a2ea2fd4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -1018664272722485354, guid: 03cd80833e0931c4a8b8e828a2ea2fd4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: -362076191995052679, guid: 03cd80833e0931c4a8b8e828a2ea2fd4, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -331,6 +348,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 03cd80833e0931c4a8b8e828a2ea2fd4, type: 3}
       propertyPath: m_Name
       value: creature_model_cleaned
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 03cd80833e0931c4a8b8e828a2ea2fd4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050422055867433376, guid: 03cd80833e0931c4a8b8e828a2ea2fd4, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5958438921693756439, guid: 03cd80833e0931c4a8b8e828a2ea2fd4, type: 3}
       propertyPath: m_Intensity
@@ -352,6 +377,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 94e22d7c968384047be26c0aa608193e, type: 2}
+    - target: {fileID: 8433771612454594119, guid: 03cd80833e0931c4a8b8e828a2ea2fd4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8876714382506603220, guid: 03cd80833e0931c4a8b8e828a2ea2fd4, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -360,6 +389,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e4986489d3da0134784388cff38ec10d, type: 2}
+    - target: {fileID: 8934777400606672865, guid: 03cd80833e0931c4a8b8e828a2ea2fd4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 65702495048144492, guid: 03cd80833e0931c4a8b8e828a2ea2fd4, type: 3}
