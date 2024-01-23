@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -131,9 +131,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 974238578668270715, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
-      propertyPath: GroundLayers.m_Bits
-      value: 1
+    - target: {fileID: 230360618671598427, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 230360618671598427, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2119775930974504096, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -175,34 +179,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3203261902030644824, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.19999981
-      objectReference: {fileID: 0}
-    - target: {fileID: 3203261902030644824, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.44500005
-      objectReference: {fileID: 0}
-    - target: {fileID: 5542111180780342640, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
-      propertyPath: orthographic size
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 5542111180780342647, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.19999981
-      objectReference: {fileID: 0}
-    - target: {fileID: 5542111180780342647, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.44500005
-      objectReference: {fileID: 0}
     - target: {fileID: 8047161636021232021, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: m_Name
       value: NestedParentArmature_Unpack
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 7888303496483045073, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
-    - {fileID: 3128949090649374765, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
