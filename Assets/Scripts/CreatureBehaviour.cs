@@ -25,7 +25,7 @@ public class CreatureBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!navMeshAgent.pathPending && navMeshAgent.remainingDistance < 0.5f) {
+        if(!navMeshAgent.pathPending && navMeshAgent.remainingDistance < 2f) {
             currentWaypoint = GetRandomPositionInPieSlice();
             navMeshAgent.SetDestination(currentWaypoint);
         }
