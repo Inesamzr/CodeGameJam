@@ -6,6 +6,11 @@ using static UnityEngine.UI.Image;
 
 public class CreatureBehaviour : MonoBehaviour
 {
+
+    [Header("Damage")]
+    public float damage = 20f;
+
+    [Header("Navigation")]
     private NavMeshAgent navMeshAgent;
 
     private Vector3 currentWaypoint;
@@ -40,5 +45,14 @@ public class CreatureBehaviour : MonoBehaviour
         float distance = Random.Range(minRadius, maxRadius);
 
         return transform.position + direction * distance;
+    }
+
+    private void OnTriggerEnter(Collider hit)
+    {
+        Debug.Log("Hit");
+        if (hit.gameObject.tag == "Player")
+        {
+            hit.gameObject.GetComponent<PlayerHealth>().takeDamage(this.damage);
+        }
     }
 }
