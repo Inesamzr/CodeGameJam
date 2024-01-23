@@ -57,7 +57,7 @@ public class PauseController : MonoBehaviour
         isPaused = false;
         Cursor.lockState = CursorLockMode.None;
         Time.timeScale = 1;
-        //UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
         Debug.Log("Return to menu");
     }
 
