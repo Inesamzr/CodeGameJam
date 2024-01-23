@@ -35,7 +35,7 @@ public class PlayerHealth : MonoBehaviour
 
     }
 
-    public void takeDamage(float damage){
+    void takeDamage(float damage){
         this.currentHealth=currentHealth - damage;
         if (this.currentHealth<=0){
             this.currentHealth = 0;
@@ -44,7 +44,7 @@ public class PlayerHealth : MonoBehaviour
         updateHealthBar();
     }
 
-    public void heal(float health){
+    void heal(float health){
         this.currentHealth+=health;
         if (this.currentHealth>=this.maxHealth){
             this.currentHealth = this.maxHealth;
