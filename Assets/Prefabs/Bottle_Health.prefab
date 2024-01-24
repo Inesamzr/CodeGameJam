@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7090817332438085727}
   - component: {fileID: 8632851506242073396}
   - component: {fileID: 3826049119354644878}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StarsParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4816,7 +4816,7 @@ GameObject:
   - component: {fileID: 221502265095493104}
   - component: {fileID: 1694133033186443581}
   - component: {fileID: 1630702339129094320}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bottle_red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4921,7 +4921,7 @@ GameObject:
   - component: {fileID: 8786282067610090722}
   - component: {fileID: 7668594520690219207}
   - component: {fileID: 8566317255585024982}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GlowParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9723,7 +9723,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3802525804812846841}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bottle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9757,7 +9757,7 @@ GameObject:
   - component: {fileID: 8603823198004683272}
   - component: {fileID: 103782265564179524}
   - component: {fileID: 9157069936378295819}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bottle_Health
   m_TagString: Untagged
   m_Icon: {fileID: 0}

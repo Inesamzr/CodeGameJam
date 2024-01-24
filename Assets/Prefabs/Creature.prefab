@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd35ce9ec73c024993eb772e4c3af55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 20
+  damage: 40
   minRadius: 20
   maxRadius: 50
   totalFOV: 90

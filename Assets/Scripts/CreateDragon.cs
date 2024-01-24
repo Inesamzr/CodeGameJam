@@ -8,20 +8,28 @@ public class CreateDragon : MonoBehaviour
     [SerializeField] private int xCenter;
     [SerializeField] private int zCenter;
     [SerializeField] private int nbDragMax;
-    private int nbDrag = 0;
+    public int nbDrag = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(SpawnDragons());
+        StartCoroutine(IncrementMaxDragons());
     }
 
-    IEnumerator SpawnDragons()
+    private void Update()
     {
-        while (nbDrag < nbDragMax)
+        if (nbDrag < nbDragMax)
         {
             createDrag();
-            yield return null;
+        }
+    }
+
+    IEnumerator IncrementMaxDragons()
+    {
+        while (true)
+        {
+            nbDragMax++;
+            yield return new WaitForSeconds(40f);
         }
     }
 
@@ -41,7 +49,7 @@ public class CreateDragon : MonoBehaviour
 
         if (dragonExampleComponent != null)
         {
-            dragonExampleComponent.InitiateMovement(new Vector3(xCenter-xInitial, 300f, zCenter- zInitial));
+            dragonExampleComponent.InitiateMovement(new Vector3(xCenter-xInitial, 300f, zCenter- zInitial), this);
             nbDrag++;
         }
         else
