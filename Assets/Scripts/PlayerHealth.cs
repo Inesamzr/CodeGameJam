@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -39,6 +40,7 @@ public class PlayerHealth : MonoBehaviour
         this.currentHealth=currentHealth - damage;
         if (this.currentHealth<=0){
             this.currentHealth = 0;
+            SceneManager.LoadScene("GameOverScene");
         }
         Debug.Log(currentHealth);
         updateHealthBar();
