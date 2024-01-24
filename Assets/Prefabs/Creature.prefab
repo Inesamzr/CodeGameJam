@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd35ce9ec73c024993eb772e4c3af55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 40
+  damage: 20
   minRadius: 20
   maxRadius: 50
   totalFOV: 90
@@ -87,7 +87,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 77e8068ea6a85d04caf81c3212542855, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -96,7 +96,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 100
+  MaxDistance: 50
   Pan2D: 0
   rolloffMode: 2
   BypassEffects: 0
@@ -106,55 +106,28 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
-      value: 1.0020409
-      inSlope: 0.0836413
-      outSlope: 0.0836413
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 1
-      outWeight: 0
-    - serializedVersion: 3
-      time: 0.14857116
-      value: 1.0005074
-      inSlope: 0.0036094203
-      outSlope: 0.0036094203
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 1
-      outWeight: 1
-    - serializedVersion: 3
-      time: 0.27991012
-      value: 0.99949265
-      inSlope: 0.009335906
-      outSlope: 0.009335906
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 1
-    - serializedVersion: 3
-      time: 0.46089965
-      value: 0.6293335
-      inSlope: -0.19539031
-      outSlope: -0.19539031
+      time: 0.005
+      value: 1
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.704743
-      value: 0.37921143
-      inSlope: -0.04884758
-      outSlope: -0.04884758
+      time: 0.49856293
+      value: 0.11032781
+      inSlope: -0.6855386
+      outSlope: -0.6855386
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0
-      outWeight: 0
+      inWeight: 0.33333334
+      outWeight: 0.3638787
     - serializedVersion: 3
-      time: 0.9885864
-      value: 0.17715026
-      inSlope: -0.020007975
-      outSlope: -0.020007975
+      time: 1
+      value: 0
+      inSlope: -1.0050251
+      outSlope: -1.0050251
       tangentMode: 0
       weightedMode: 0
       inWeight: 0

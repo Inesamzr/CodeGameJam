@@ -10,11 +10,14 @@ public class DragonDamage : MonoBehaviour
 
     [SerializeField] private float sphereCastRadius = 0.5f;
 
+    [SerializeField] private AudioSource audioSource;
+
     private void Update()
     {
         RaycastHit hit;
         if(Physics.SphereCast(fire.transform.position, sphereCastRadius, fire.transform.up, out hit, 1000f))
         {
+            audioSource.transform.position = hit.point;
             if (hit.collider.CompareTag("Player"))
             {
                 hit.collider.GetComponent<PlayerHealth>().takeDamage(damage * Time.deltaTime);
